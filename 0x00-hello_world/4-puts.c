@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main-printOut
- * Return:Always 0 (acceptable)
+ * main-entry point
+ * Return:0
  */
 int main(void)
 {
