@@ -2,16 +2,16 @@
 
 /**
  * swap_int - swap two integer values
- * @i: first integer
- * @j: second integer
+ * @a: first integer
+ * @b: second integer
  * Return; Nothing
  */
 
-void swap_int(int *i, int *j)
+void swap_int(int *a, int *b)
 {
-	int tmp =*i;
+	int tmp = *a;
 
-	*i = *j;
-	*j = tmp;
+	*a = *b;
+	*b = tmp;
 
 }
