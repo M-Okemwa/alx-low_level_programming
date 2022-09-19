@@ -2,24 +2,26 @@
 #include "main.h"
 
 /**
- * prnit_array - prints n element of array
- * @a: array
- * @n: number of elements
- * return; nothing
+ * puts_half - prints n element of array
+ * @str: the identified string
+ * return: nothing
  */
 
 void print_array(int *a, int n);
 {
-	int inc;
+	int len = 0;
 
-	int inc;
-	for (inc = 0; inc <n : inc++)
+	while (*str != '\0')
 	{
-		if (inc != n -1)
-			printf("%d, ",a[inc]);
-		else
-			print("%d", a[inc]);
+		len++;
+		str++;
 	}
-	putchar(10);
+	str -= (len / 2);
+	while (*str != '\0')
+	{
+		putchar(*str);
+		str++;
+	}
+	putchar('\n')
 }
 
