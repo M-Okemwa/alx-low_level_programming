@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - Concarnates two strings, that is src and dest
+ *_strcat - Concarnates two strings, that is src and dest
  *           overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte
  * @dest: A pointer to the string to be concatenated upon.
  * @src: The source string to be appended to @dest
@@ -11,7 +11,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len =0;
+	int index = 0, dest_len = 0;
 
 	while (dest[index++])
 		dest_len++;
