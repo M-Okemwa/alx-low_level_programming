@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * Description: 'Added statement'
- */
+ *Description: 'Added statement'
+ *Return: always to 0
+ *Main - entry point
+ * /
 
 int main(void)
 {
