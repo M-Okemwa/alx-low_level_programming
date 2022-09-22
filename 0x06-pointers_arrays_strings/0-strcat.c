@@ -2,13 +2,12 @@
 
 /**
  *_strcat - Concatenates the string pointed to by @src to
- *the end of the string pointed to by @dest
+ * the end of the string pointed to by @dest
  * @dest: A string that will be appended.
  * @src: String to be concatenated upon
  *
  * Return: returns pointer to @dest
  */
-
 char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
