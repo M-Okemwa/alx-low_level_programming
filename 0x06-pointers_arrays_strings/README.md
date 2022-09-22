@@ -11,9 +11,3 @@
 10 Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
 11 Write a function that adds two numbers.
 12 Write a function that prints a buffer.
-C
-
-clear
-[A
-c^
-^C
