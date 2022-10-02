@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_numbers - a function that prints numbers from 0 to 9
- *
+ * _putchar: print character
  * Return: 0-9 followed by newline
  */
 void print_numbers(void)
