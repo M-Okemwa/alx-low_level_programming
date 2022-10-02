@@ -1,6 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/*
+ * file - main.h
+ * int prototypes ()
+ * void prottypes ()
+ */
+
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
